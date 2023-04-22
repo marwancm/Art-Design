@@ -184,7 +184,7 @@ header nav .form i {
 .landing {
   min-height: 100vh;
   background-color: #1f2021;
-  background-image: url(/images/land.jpg);
+  background-image: url(../images/landing.jpg);
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -312,7 +312,7 @@ header nav .form i {
   display: flex;
   align-items: center;
   background-color: #333;
-  background-image: url(/images/mm.jpg);
+  background-image: url(../images/design-features.jpg);
   background-size: cover;
   overflow: hidden;
 }
@@ -341,7 +341,7 @@ header nav .form i {
 }
 .design .image img {
   position: relative;
-  bottom: -60px;
+  bottom: -130px;
 }
 .design .text {
   color: white;
@@ -471,7 +471,7 @@ header nav .form i {
 .video .text p {
   margin-bottom: 30px;
 }
-@media (max-width: 450px){
+@media (max-width: 450px) {
   .video .text {
     padding: 30px;
   }
@@ -514,7 +514,7 @@ header nav .form i {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   text-align: center;
-  background-image: url(/images/lcy.jpg);
+  background-image: url(../images/stats.png);
   background-size: cover;
   position: relative;
 }
@@ -527,7 +527,7 @@ header nav .form i {
   top: 0;
   background-color: rgb(0 0 0 / 70%);
 }
-.states .container{
+.states .container {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -563,9 +563,9 @@ header nav .form i {
   margin: 0 auto 30px;
 }
 .states .box .number {
-font-size: 50px;
-font-weight: bold;
-margin: 0 0 20px;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0 0 20px;
 }
 .states .box p {
   font-size: 14px;
@@ -576,12 +576,12 @@ margin: 0 0 20px;
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
-.our-skills .container{
+.our-skills .container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .our-skills .container > div {
     flex-basis: 45%;
   }
@@ -591,38 +591,38 @@ margin: 0 0 20px;
   font-weight: normal;
   text-transform: uppercase;
   margin: 0 0 30px;
-} 
+}
 .our-skills .container > div > p {
   color: #777;
   line-height: 2;
   text-align: center;
   margin-bottom: 60px;
 }
-.our-skills .testimonlals .content { 
+.our-skills .testimonlals .content {
   display: flex;
   margin-bottom: 30px;
   align-items: center;
 }
-.our-skills .testimonlals .content img { 
+.our-skills .testimonlals .content img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   margin-right: 50px;
 }
 @media (max-width: 767px) {
-  .our-skills .testimonlals .content { 
-  flex-direction: column;
-  text-align: center;
+  .our-skills .testimonlals .content {
+    flex-direction: column;
+    text-align: center;
   }
-  .our-skills .testimonlals .content img { 
-  margin: 0 auto 20px;
+  .our-skills .testimonlals .content img {
+    margin: 0 auto 20px;
   }
 }
 .our-skills .testimonlals .content .text {
   line-height: 1.8;
   border-bottom: 1px solid #ccc;
 }
-.our-skills .testimonlals  .content .text p {
+.our-skills .testimonlals .content .text p {
   color: #777;
   text-align: right;
   font-size: 14px;
@@ -663,7 +663,7 @@ margin: 0 0 20px;
   height: 100%;
   position: relative;
 }
-.our-skills .skills .prog-holder span::before{
+.our-skills .skills .prog-holder span::before {
   content: attr(data-progress);
   position: absolute;
   background-color: black;
@@ -675,7 +675,7 @@ margin: 0 0 20px;
   text-align: center;
   border-radius: 4px;
 }
-.our-skills .skills .prog-holder span::after{
+.our-skills .skills .prog-holder span::after {
   content: "";
   position: absolute;
   border-style: solid;
@@ -689,7 +689,7 @@ margin: 0 0 20px;
 .quote {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url(/images/mm.jpg);
+  background-image: url("../images/quote.jpg");
   color: white;
   text-align: center;
   position: relative;
@@ -742,7 +742,7 @@ margin: 0 0 20px;
   font-weight: bold;
 }
 .pricing .plans .plan .head span::before {
-  content: '$';
+  content: "$";
   font-size: 25px;
   font-weight: normal;
   position: relative;
@@ -750,7 +750,7 @@ margin: 0 0 20px;
   margin-right: 15px;
 }
 .pricing .plans .plan .head span::after {
-  content: '/Mo';
+  content: "/Mo";
   font-size: 20px;
   font-weight: bold;
   position: relative;
@@ -758,7 +758,6 @@ margin: 0 0 20px;
 }
 .pricing .plans .plan ul {
   border-bottom: 1px solid var(--main-color);
-
 }
 .pricing .plans .plan ul li {
   padding: 20px;
@@ -803,7 +802,7 @@ margin: 0 0 20px;
   padding-bottom: var(--section-padding);
   position: relative;
   background-size: cover;
-  background-image: url(/images/i.jpg);
+  background-image: url("../images/subscribe.jpg");
   color: white;
 }
 .subscribe::before {
@@ -837,7 +836,7 @@ margin: 0 0 20px;
   transform: translateY(-50%);
   left: 25px;
 }
-.subscribe .container form input[type="email"]{
+.subscribe .container form input[type="email"] {
   border: 1px solid white;
   background: none;
   padding: 20px 20px 20px 60px;
@@ -845,7 +844,7 @@ margin: 0 0 20px;
   width: calc(100% - 130px);
   border-right: none;
 }
-.subscribe .container form input[type="submit"]{
+.subscribe .container form input[type="submit"] {
   width: 130px;
   background-color: var(--main-color);
   border: 1px solid white;
@@ -870,7 +869,8 @@ margin: 0 0 20px;
 .subscribe .container p {
   line-height: 2;
   margin-left: 50px;
-}@media (max-width: 991px) {
+}
+@media (max-width: 991px) {
   .subscribe .container p {
     margin: 30px 0 0;
   }
@@ -894,11 +894,11 @@ margin: 0 0 20px;
   flex-basis: 70%;
 }
 .contact .content form .main-input {
-padding: 20px;
-display: block;
-border: 1px solid #ccc;
-margin-bottom: 30px;
-width: 100%;
+  padding: 20px;
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+  width: 100%;
 }
 .contact .content form textarea.main-input {
   height: 200px;
@@ -930,7 +930,7 @@ width: 100%;
   color: #777;
   margin-bottom: 10px;
 }
-.contact .content .info h4:nth-of-type(2){
+.contact .content .info h4:nth-of-type(2) {
   margin-top: 90px;
 }
 @media (max-width: 767px) {
@@ -950,9 +950,9 @@ width: 100%;
 /*  End Contact */
 /* Start Footer */
 footer {
-  padding-top: calc(var(--section-padding) /2);
-  padding-bottom: calc(var(--section-padding) /2);
-  background-image: url(/images/mm.jpg);
+  padding-top: calc(var(--section-padding) / 2);
+  padding-bottom: calc(var(--section-padding) / 2);
+  background-image: url("../images/subscribe.jpg");
   background-size: cover;
   color: white;
   text-align: center;
