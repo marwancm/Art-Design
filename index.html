@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="scroller"></div>
     <!-- Start Header -->
     <header>
       <div class="container">
@@ -22,11 +23,11 @@
           <i class="fas fa-bars toggle-menu"></i>
           <ul>
             <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Pricing">Pricing</a></li>
+            <li><a href="#Contact">Contact</a></li>
           </ul>
           <div class="form">
             <i class="fas fa-search"></i>
@@ -58,7 +59,7 @@
     </div>
     <!-- End Landing -->
     <!-- Start Services -->
-    <div class="services">
+    <div class="services" id="Services">
       <div class="container">
         <div class="main-heading">
           <h2>Services</h2>
@@ -122,7 +123,7 @@
     </div>
     <!-- End Design -->
     <!-- Start Portfolio -->
-    <div class="portfolio">
+    <div class="portfolio" id="Portfolio">
       <div class="container">
         <div class="main-heading">
           <h2>portfolio</h2>
@@ -210,7 +211,7 @@
     </div>
     <!-- Start Video -->
     <!-- Start About -->
-    <div class="about">
+    <div class="about" id="About">
       <div class="container">
         <div class="main-heading">
           <h2>About</h2>
@@ -318,7 +319,7 @@
     </div>
     <!-- End Quote -->
     <!-- Start Pricing -->
-    <div class="pricing">
+    <div class="pricing" id="Pricing">
       <div class="container">
         <div class="main-heading">
           <h2>Pricing</h2>
@@ -404,7 +405,7 @@
     </div>
     <!-- End Subscribe -->
     <!-- Start Contact -->
-    <div class="contact">
+    <div class="contact" id="Contact">
       <div class="container">
         <div class="main-heading">
           <h2>Contact Us</h2>
@@ -443,5 +444,6 @@
       </div>
     </footer>
     <!-- End Footer -->
+    <script src="./js/main.js"></script>
   </body>
 </html>

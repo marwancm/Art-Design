@@ -89,12 +89,21 @@ ul {
   margin: 0px auto 100px;
 }
 /* End Components */
+body .scroller {
+  background-color: #0075ff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  width: 0;
+  height: 5px;
+}
 /* Start Header */
 header {
   position: absolute;
   left: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 100;
 }
 header .container {
   display: flex;
@@ -159,10 +168,9 @@ header nav ul li a {
   position: relative;
   z-index: 2;
 }
-header nav ul li a.active,
-header nav ul li a.hover {
+
+header nav ul li a:hover {
   color: var(--main-color);
-  border-bottom: 1px solid var(--main-color);
 }
 header nav .form {
   width: 40px;
